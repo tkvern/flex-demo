@@ -1,0 +1,1 @@
+$(".app-footer a").each(function(){var t=document.location.pathname.split("/"),a=t[t.length-1],e=$(this).attr("href");return e===a?($(this).addClass("active"),!1):void 0}),$(".sidebar a").each(function(){var t=document.location.pathname.split("/");console.log(t);var a=t[t.length-1],e=$(this).attr("href");return e===a?($(this).addClass("active"),!1):void 0});
